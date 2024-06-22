@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Ultra&display=swap');
+
+body {
+    font-family: var(Josefin);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #124e78;
+    --secondary-color: #f0f0c9;
+    --accent1-color: #f2bb05;
+    --accent2-color: #d74e09;
+
+    --heading-font: Ultra, serif;
+    --paragraph-font: Josefin, serif;
+
+    --nav-background-color: #25b7c4; 
+    --nav-link-color: #1f01ff;
+    --nav-hover-link-color: #9090ed;
+    --nav-hover-background-color: #0aae5c;
+}
+
+body {
+    font-family: var(Josefin);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
