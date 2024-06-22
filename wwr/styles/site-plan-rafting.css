@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Ultra&display=swap');
 
 body {
-    font-family: var(Josefin);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 body {
-    font-family: var(Josefin);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
