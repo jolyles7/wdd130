@@ -19,7 +19,7 @@
 body {
     font-family: var(--paragraph-font);
     color: black;
-    max-width: 960px;
+    max-width: 1000px;
     padding: 20px;
 }
 
@@ -31,7 +31,6 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 .hero {
-    margin: 10px auto;
     position: relative;
 }
 .hero img {
@@ -39,30 +38,34 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: auto;
 }
-
 .hero h1 {
     position: absolute;
+    width: 100%;
     top: 1px;
-    left: 20px;
-    -webkit-text-stroke-color: #eee;
+    left: 10px;
+    -webkit-text-stroke-color: white;
     -webkit-text-stroke-width: .5px;
-    font-size: 60px;
+    font-size: 400%;
 }
-
 .hero article {
     position: absolute;
-    width: 30%;
-    top: 25px;
-    right: 15px;
-    background: radial-gradient(#eee, #4567aa);
-    border: 1px solid #000;
-    padding: 0.65rem;
-    box-shadow: 0 0 30px #111;
-    opacity: 0.9;
+    width: 70%;
+    height: auto;
+    top: 350px;
+    right: 50px;
+    background-color: rgb(242, 187, 5, .75);
+
 }
-
-
-
+.hero article > img {
+    float: right;
+    width: 45%;
+    padding: .5rem;
+}
+.hero article > p {
+    width: 50%;
+    padding: .5rem;
+    text-align: center;
+}
 
 
 
