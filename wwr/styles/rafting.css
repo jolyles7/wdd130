@@ -38,12 +38,17 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     width: 100%;
     height: auto;
-    object-fit:cover;
 }
+
 .hero h1 {
-    position: absolute;	
-    top: 25px;
+    position: absolute;
+    top: 1px;
+    left: 20px;
+    -webkit-text-stroke-color: #eee;
+    -webkit-text-stroke-width: .5px;
+    font-size: 60px;
 }
+
 .hero article {
     position: absolute;
     width: 30%;
@@ -54,12 +59,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.65rem;
     box-shadow: 0 0 30px #111;
     opacity: 0.9;
-}
-.hero article > img {
-    float: right;
-}
-.hero article > p {
-    float: left;
 }
 
 
