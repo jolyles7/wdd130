@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Ultra&display=swap');
+
+:root {
+    --primary-color: #124e78;
+    --secondary-color: #f0f0c9;
+    --accent1-color: #f2bb05;
+    --accent2-color: #d74e09;
+
+    --heading-font: Ultra, serif;
+    --paragraph-font: Josefin, serif;
+
+    --nav-background-color: #25b7c4; 
+    --nav-link-color: #1f01ff;
+    --nav-hover-link-color: #9090ed;
+    --nav-hover-background-color: #0aae5c;
+
+    width: 1000px;    
+}
+body {
+    font-family: var(--paragraph-font);
+    color: var(black);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+.sociallinks {
+    a:link {
+        text-decoration: none;
+    }
+    
+    a:visited {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    a:active {
+        text-decoration: none;
+    }
+}
+.hero {
+    margin: 10px auto;
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit:cover;
+}
+.hero h1 {
+    position: absolute;	
+    top: 25px;
+}
+.hero article {
+    position: absolute;
+    width: 30%;
+    top: 25px;
+    right: 15px;
+    background: radial-gradient(#eee, #4567aa);
+    border: 1px solid #000;
+    padding: 0.65rem;
+    box-shadow: 0 0 30px #111;
+    opacity: 0.9;
+}
+.hero article > img {
+    float: right;
+}
+.hero article > p {
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
