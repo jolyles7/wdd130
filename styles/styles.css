@@ -28,16 +28,23 @@ main img {
 	width: 150px;
 	height: auto;
 	float: right;
+	padding: 10px;
 }
-img {
-	width: 150px;
+aside img {
+	position: relative;
+	width: 250px;
 	height: auto;
-	border: 1px solid #26413C;
-	padding: 2px;
-	box-shadow: 0 0 30px gray;
+	float: none;
+	left: 20px;
+}
+aside h2 {
+	position: relative;
+	left: 50px;
+	top: -10px;
 }
 p {
 	padding: 10px;
+	
 }
 footer {
 	margin-top: 15px;
@@ -90,6 +97,7 @@ aside {
 	grid-row: 1/2;
 }
 
+
 /* Class Selectors */
 
 .box {
@@ -98,4 +106,9 @@ aside {
 	padding: 1rem;
 	background-color: #26413C;
 	color: #F18F01;
+}
+
+.box li {
+	position: relative;
+	left: 20px;
 }
