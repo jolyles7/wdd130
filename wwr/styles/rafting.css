@@ -209,8 +209,29 @@ header nav a:hover {
     text-align: center;
 }
 
-
-
+footer {
+    display: grid;
+    grid-template-columns: 1fr 80px 80px 80px 50px;
+    column-gap: 5px;
+}
+footer p {
+    text-align: center;
+}
+.facebook{
+    grid-column: 2/3;
+    align-self: center;
+    justify-self: center;
+}
+.twitter {
+    grid-column: 3/4;
+    align-self: center;
+    justify-self: center;
+}
+.instagram {
+    grid-column: 4/5;
+    align-self: center;
+    justify-self: center;
+}
 
 
 
