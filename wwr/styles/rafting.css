@@ -142,47 +142,72 @@ header nav a:hover {
     display: grid;
     margin-top: 20px;
     row-gap: 20px;
-    column-gap: 10px;
+    column-gap: 5px;
     grid-template-columns: repeat(5,1fr);
-    grid-template-rows: 30px 1fr 30px;
-    width: 1000px;
-    height: 500px;
+    grid-template-rows: 30px 180px;
+    width: 800px;
+    height: 300px;
 }
 .adventure section #flex1{
     grid-column: 1/2;
     grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
 }
 .adventure section #flex2{
     grid-column: 2/3;
     grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
 }
 .adventure section #flex3{
     grid-column: 3/4;
     grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
 }
 .adventure section #flex4{
     grid-column: 4/5;
     grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
 }
 .adventure section #flex5{
     grid-column: 5/6;
     grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
 }
 
-/* .adventure section h2 { */
-    /* grid-column: 1/6; */
-    /* grid-row: 1/2; */
-    /* align-self: center; */
-    /* justify-self: center; */
-/* } */
-/* .adventure section figure > img { */
-    /* grid-column: 2/3; */
-    /* grid-row: 2/3; */
-    /* align-self: center; */
-    /* justify-self: center; */
-/* } */
+.adventure section h2 {
+    grid-column: 1/6;
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
+}
 
-
+.adventure section figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 2px;
+    max-width: 220px;
+    margin: auto;
+    width: 12rem;
+}
+  
+.adventure section img {
+    max-width: 220px;
+    max-height: 150px;
+    width: 100%;
+}
+  
+.adventure section figcaption {
+    color: #0e0d0d;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
 
 
 
