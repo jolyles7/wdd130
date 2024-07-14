@@ -225,7 +225,7 @@ header nav a:hover {
     justify-self: center;
     width: 90%;
 }
-#email {
+#mail {
     grid-column: 2/3;
     grid-row: 5/6;
     align-self: center;
@@ -266,6 +266,9 @@ header nav a:hover {
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 80px 1fr;
     background-image: url(../images/background3.png);
+    border-top: black solid;
+    border-bottom: black solid;
+
 }
 .employee-profiles h1 {
     grid-column: 1/4;
@@ -280,10 +283,6 @@ header nav a:hover {
     text-align: center;
 }
 .employee-profiles figure figcaption {
-    background-color: rgb(255, 255, 255,.6);
-    padding: 1px;
-}
-.employee-profiles figure > p {
     background-color: rgb(255, 255, 255,.6);
     padding: 1px;
 }
@@ -316,41 +315,6 @@ header nav a:hover {
     justify-self: center;
     width: 1000px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     display: grid;
