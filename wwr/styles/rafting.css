@@ -15,17 +15,18 @@
     --nav-hover-link-color: #9090ed;
     --nav-hover-background-color: #0aae5c;
 
-    width: 1000px;    
+    width: 1050px;  
 }
 body {
     font-family: var(--paragraph-font);
     color: black;
-    max-width: 1000px;
+    max-width: 1050px;
     padding: 20px;
-    width: 1000px;
+    width: 1050px;
 }
 main {
     background-color: rgb(92, 111, 104,.7); 
+    width: 1050px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -36,14 +37,14 @@ a:link, a:visited, a:hover, a:active{
 }
 header {
     display: grid;
-    grid-template-columns: 200px 2fr;
+    grid-template-columns: 200px 1fr;
     align-items: center;
-    max-width: 1000px;
+    max-width: 1050px;
     margin: 1rem auto;
     border-bottom: 1px solid black;
     gap: 20px;
     height: 7rem;
-    width: 1000px;
+    width: 1050px;
     background-image: linear-gradient(to left, #5C6F68, #8AA39B);
 }
 header img {
@@ -74,13 +75,13 @@ header nav a:hover {
 }
 .hero img {
     display: block;
-    width: 1000px;
+    width: 1050px;
     height: auto;
 }
 .hero h1 {
     position: absolute;
     color: white;
-    width: 1000px;
+    width: 1050px;
     top: 5px;
     text-align: center;
     background-color: rgb(0, 0, 0, .5);
@@ -108,7 +109,7 @@ header nav a:hover {
     margin-top: 20px;
     grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
     grid-template-rows: 30px 1fr;
-    width: 1000px;
+    width: 1050px;
     row-gap: 20px;
 }
 .history section h2 {
@@ -202,7 +203,7 @@ header nav a:hover {
     display: grid;
     grid-template-columns: 70px 1fr 1fr 70px;
     grid-template-rows: auto auto auto;
-    width: 1000px;
+    width: 1050px;
     height: 500px;
     gap: 20px;
     align-items: center;
@@ -222,7 +223,6 @@ header nav a:hover {
     width: 1000px;
     height: 100px;
     background-color: rgb(92, 111, 104,.9);
-
 }
 .start h1 {
     grid-column: 1/3;
@@ -414,7 +414,7 @@ header nav a:hover {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: 80px 40px 390px 50px;
-    width: 1000px;
+    width: 1050px;
     height: 620px;
     gap: 20px;
 }
@@ -437,7 +437,7 @@ header nav a:hover {
     grid-row: 3/4;
     align-self: center;
     justify-self: center;
-    width: 1000px;
+    width: 1050px;
 }
 footer {
     display: grid;
