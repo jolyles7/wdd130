@@ -45,7 +45,7 @@ header {
     gap: 20px;
     height: 7rem;
     width: 1050px;
-    background-image: linear-gradient(to left, #5C6F68, #8AA39B);
+    background-color: rgb(92, 111, 104,.7);
 }
 header img {
     height: auto;
@@ -448,6 +448,11 @@ footer {
 footer p {
     text-align: center;
 }
+footer img {
+    width: 60%;
+    align-self: center;
+    justify-self: center;
+}
 .facebook{
     grid-column: 2/3;
     align-self: center;
@@ -457,21 +462,257 @@ footer p {
     grid-column: 3/4;
     align-self: center;
     justify-self: center;
+
 }
 .instagram {
     grid-column: 4/5;
     align-self: center;
     justify-self: center;
+
 }
 .wireframe {
     grid-column: 1/2;
     grid-row: 2/3;
     text-align: center;
 }
+.main-trip {
+    display: grid;
+    grid-template-columns: 600px 420px;
+    grid-template-rows: 575px 600px 400px;
+    gap: 30px;
+    grid-template-areas: 
+      "out out"
+      "exp aside"
+      "end aside"
+    ;
+}
+.check-us-out-container {
+    grid-area: out;
+    max-height: 575px;
+    
+}
+.book-adventure img {
+    position: relative;
+    width: 90%;
+    padding: 5px;
+    align-self: center;
+    justify-self: center;
 
-
-
-
+}
+.trip-button1 {
+    position: absolute;
+    background-color: rgb(25, 147, 25,.9);
+    width: 350px;
+    text-align: center;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    position: absolute;
+    left: 590px;
+    top: 320px;
+    font-size: 100%;
+}
+.experience {
+    grid-area: exp;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 80px 1fr;
+    place-items: center;
+}
+.experience h1 {
+    grid-row: 1/2;
+    text-align: center;
+    text-decoration: underline;
+}
+.experience table {
+    text-align: center;
+    border-collapse: collapse;
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: middle;
+}
+.experience table th {
+    font-size: 27px;
+    padding: 15px;
+}
+.experience table td {
+    font-size: 23px;
+    padding: 8px;
+}
+.trip-aside {
+    grid-area: aside;
+    box-sizing: border-box;
+}
+.trip-aside-section {
+    display: grid;
+    place-items: center;
+    
+}
+.trip-aside-section img {
+    width: 70%;
+}
+.trip-aside-section h2, p {
+    text-align: center;
+}
+.trip-aside-section p {
+    padding-right: 20px;
+}
+.end-trip {
+    grid-area: end;
+    position: relative;
+}
+.end-trip img {
+    position: absolute;
+    padding: 10px;
+    width: 95%;
+}
+.end-trip h1 {
+    position: absolute;
+    left: 220px;
+    background-color: rgba(25, 108, 147, 0.7);
+    text-align: center;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+.index-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* grid-template-rows: 600px 400px 400px; */
+    /* grid-template-rows: 605px 505px 445px 445px; */
+    grid-template-rows: auto;
+    gap: 30px;
+    grid-template-areas: 
+      "hero hero"
+      "des1 des1"
+      "des2 des2"
+      "signup signup"
+    ;
+}
+.index-hero {
+    grid-area: hero;
+    position: relative;
+}
+.index-hero img {
+    max-width: 1050px;
+    /* position: absolute; */
+} 
+.index-hero h1 {
+    position: absolute;
+    color: white;
+    top: 5px;
+    right: 20px;
+    text-align: right;
+}
+.index-hero h2 {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    left: 220px;
+    background-color: rgba(25, 108, 147, 0.7);
+    text-align: center;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+.des1 {
+    grid-area: des1;
+    display: grid;
+    grid-template-columns: 450px 570px;
+    place-content: center;
+    column-gap: 20px;
+}
+.des1 h1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+}
+.des1 h2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+}
+.des1 p {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    text-align: center;
+    padding: 10px
+}
+.des1 img {
+    grid-column: 2/3;
+    grid-row: 1/4;
+    max-width: 550px;
+    place-self: center;
+}
+.des2 {
+    grid-area: des2;
+    display: grid;
+    grid-template-columns: 570px 450px;
+    /* place-content: center; */
+    column-gap: 20px;
+}
+.des2 h1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+}
+.des2 h2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+}
+.des2 p {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+    padding: 10px;
+}
+.des2 img {
+    grid-column: 1/3;
+    grid-row: 1/4;
+    max-width: 550px;
+    align-self: center;
+    padding-left: 15px;
+}
+.subscribe {
+    grid-area: signup;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-row: auto;
+}
+.subscribe h3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+}
+.subscribe p {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.subscribe form {
+    grid-column: 3/5;
+    grid-row: 1/3;
+    place-items: center;
+    place-content: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+}
+.subscribe form fieldset {
+    max-width: 300px;
+    border: none;
+    grid-column: 1/2;
+}
+.subscribe form fieldset input {
+    width: 100%;
+    font-size: larger;
+}
+.subscribe form button {
+    grid-column: 2/3;
+    width: 90%;
+    font-size: 40px;
+    padding-right: 30px;
+}
 
 
 
